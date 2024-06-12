@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx",
+    "lint": "eslint .",
+    "fmt": "eslint . --fix"
+  },
+  "dependencies": {
+    "hono": "^4.4.5",
+    "ky": "^1.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.15.0",
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@eslint-react/eslint-plugin": "^1.5.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "wrangler": "^3.57.2"
+  }
+}
